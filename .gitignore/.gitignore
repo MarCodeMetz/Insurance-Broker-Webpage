@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<title>Insurance Broker Page</title>
+<head>   
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <div class="header">  
+    <div class="row">
+      <div class="col-sm-4"><img src="https://tse4.mm.bing.net/th?id=OIP.7QKPKL__rwhiMbh6dhVYMgHaD9&pid=15.1&P=0&w=341&h=183"></div>
+
+      <div class="col-sm-5"><h1 class="slogan text-center">We take pride in premium insurance!</h1></div>
+
+      <div class="col-sm-3">
+        <div id="navHeader" class="topnav pull-right">
+          <a href="#"><i class="fa fa-home" style="font-size:24px"></i></a>
+          <a href="#"><i class="fa fa-envelope" style="font-size:24px"></i></a>
+          <a href="#"><i class="fa fa-twitter-square" style="font-size:24px"></i></a>
+          <a href="#"><i class="fa fa-facebook-square" style="font-size:24px"></i></a>
+          <a href="#"><i class="fa fa-youtube-square" style="font-size:24px"></i></a>
+          <a href="#"><i class="fa fa-linkedin-square" style="font-size:24px"></i></a>
+          <br>
+          <input type="text" placeholder="Search.."></div>
+      </div>  
+    </div>
+  </div>  
+</head>
+  
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <ul class="nav navbar-nav">       
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Why Insurance Broker?</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-briefcase"></span> For Insurance Broker</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-credit-card"></span> For Insurance Companies</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-road"></span> Career</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-bullhorn"></span> Press</a></li>
+      </ul>
+  </div>
+</nav>
+<section>
+   <div class="container">  
+      <div id="slideshow" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="http://www.chicagobusiness.com/apps/pbcsi.dll/storyimage/CG/20150716/NEWS03/150719845/AR/0/Accretive-Health-exploring-sale.jpg" alt="Health Insurance" style="width:100%;">
+            <h1>HEALTH &amp; LIFE</h1>
+          </div>
+
+          <div class="item">
+            <img src="https://images.honestjohn.co.uk/imagecache/file/crop/1000x660/media/13518164/_amp0219.jpg" alt="Car Insurance" style="width:100%;">
+            <h1>MOBILITY</h1>
+          </div>
+
+          <div class="item">
+            <img src="https://edito.regionsjob.com/observatoire-metier/wp-content/uploads/sites/4/2015/11/chef-dagence-immobili%C3%A8re.jpg" alt="Home Insurance" style="width:99%;">
+            <h1>PROPERTY</h1>
+          </div>
+        </div>
+      </div>
+   </div>
+</section>
+
+<section class="tabs">
+  <div class="row">
+    <br>
+    <div class="col-sm-4"><br><img class="img-rounded" src="https://www.vema-eg.de/wp/wp-content/uploads/2016/09/startbox_1.png" alt="Laptop" style="width:100%;">
+     <button type="button" class="btn btn-success btn-lg btn-block">Login Insurance Broker</button>
+     <button type="button" class="btn btn-default btn-lg btn-block">Login Insurance Company</button>   
+    </div>
+    <div class="col-sm-4"><br><img class="img-rounded" src="https://www.vema-eg.de/wp-content/uploads/2016/09/startbox_3_partner.png" alt="People" style="width:100%;">
+      <h3>10 very good Reasons why...</h3>
+      <p>you should work with us!</p>            
+    </div>
+    <div class="col-sm-4"><img class="img-rounded" src="https://www.vema-eg.de/wp/wp-content/uploads/2016/09/startbox_3.png" border="5" alt="Women" style="width:100%;">
+      <h3>We are hiring!</h3>      
+      <p>You want to make a difference. We want to belong to the best. That is why we attach particular importance to qualified and dedicated employees, who think ahead - for our clients and for our company.</p>
+      <h4><a href="#career">Browse our career section</h4>      
+    </div>
+  </div>  
+</section>
+</body>
+
+ <footer>
+  <div class="row">
+    <div class="col-sm-4 text-success footerL">
+      <p>Insurance Brokers Inc.</p>
+      <p>3200 Broadwy Road</p>
+      <p>Example-City, XY</p>
+    </div>
+    
+    <div align="center" class="col-sm-4 text-success">
+      <p>&#169; 2018 coded by Marco Metz</p>       
+			<p class="social-p">follow me on the media</p>
+        <div class="w3-container">
+          <ul class="w3-ul w3-center list-inline">
+            <li><a href="https://github.com/MarCodeMetz"><i class="fa fa-github"></i></a></li>
+            <li><a href="https://codepen.io/MarCodeM/"><i class="fa fa-codepen"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/marco-m-a885b0162/"><i class="fa fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+   
+    <div class="col-sm-4 text-success footerR">
+        <p>contact</p>  
+        <p>terms of use</p>
+        <p>privacy policy</p>        
+    </div>
+  </div> 
+</footer> 
+</html> 
